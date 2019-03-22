@@ -1,0 +1,112 @@
+<body bgcolor='#cccccc'>
+<table width='100%' cellspacing='0' cellpadding='0' border='0'>
+<tr bgcolor='#ffffcc'>
+	<td><h3><b><u>Remarques et commentaires</u> :</b></h3>
+        OPENWOR reste un laboratoire. Cette version de l'extension reste non finalisée.<br>
+		L'API de QGIS est en cours de mutation profonde. La version 1.9 a été recettée sur les versions 1.8 et 1.9 de QGIS.<br>
+		L'introduction des expressions est une première ébauche.
+	</td>
+	<td width="130" bgcolor='#ccffff'>&nbsp;</td>
+</tr>		
+<tr bgcolor='#ccffff'><td colspan = "2">&nbsp;</td></tr>
+<tr bgcolor='#ccffff'><td colspan = "2"><div align='left'><h1>Nouveautés de la version 1.9</h1></div></td></tr>
+<tr bgcolor='#ccffff'><td colspan = "2">&nbsp;</td></tr>		
+<tr bgcolor='#ffffcc'>
+	<td>		
+		<br>
+        <br><u>Quelles nouveautés par rapport à la version 1.2-c ?</u> :
+        <ul>
+			<li>Intégration des tables logiques (SEAMLESS) ;</li>
+			<li>Intégration des fichiers XLS ;</li>
+			<li>Intégration des fichiers DEM, MIG ;</li>
+			<li>Intégration d'un moteur de recherche des fichiers WOR ;</li>
+			<li>Intégration des expressions pour les étiquettes ;</li>
+				<ul>
+					<li>Pour ces dernières, dans cette première bouture, il est conseillé d'utiliser le caractère "<b>&</b>" pour la concaténation de châines de caractères et le caractère "<b>+</b>" uniquement comme opérateur mathématique.</li>
+				</ul>
+			<li>Amélioration de la gestion des groupes MapInfo dans la fenêtre légende ;</li>				
+			<li>Abandon de l'ancien étiquetage ;</li>
+			<li>Abandon de l'ancienne symbologie ;</li>
+			<li>Corrections diverses sur le code.</li>
+		</ul>
+		<br>
+	</td>
+	<td width="130" bgcolor='#ccffff'>&nbsp;</td>
+</tr>
+<tr bgcolor='#ccffff'><td colspan = "2">&nbsp;</td></tr>
+<tr bgcolor='#ccffff'><td colspan = "2"><div align='left'><h1>Anciennes évolutions</h1></div></td></tr>
+<tr bgcolor='#ccffff'><td colspan = "2">&nbsp;</td></tr>
+<tr bgcolor='#ffffcc'>
+	<td>
+        <br><u>Quelles nouveautés par rapport à la version 1.2 ?</u> :
+        <ul>
+			<li>Restitution des groupes MapInfo dans la fenêtre légende ;</li>
+			<li>Prise en compte des QML ;</li>
+			<li>Prise en compte des positions (Histogrammes et camemberts) ;</li>        
+			<li>Ajout symboles personnalisés (svg/symbols).</li>
+		</ul>	
+	</td>
+	<td width="130" bgcolor='#ccffff'>&nbsp;</td>
+</tr>	
+<tr bgcolor='#ffffcc'>
+	<td>
+        <br><u> Quelles nouveautés par rapport à la version 0.2 ?</u> :
+        <ul>
+			<li>Gestion des projections (des vecteurs, des rasters et des entités temporaires) ;</li>        
+			<li>Les formats supportés sont désormais les suivants : TAB, SHP, RASTER, WMS, TXT, CSV ;</li>
+			<li>Une vue arborescente (treeview) a été ajoutée avec introduction des groupes MapInfo ;</li>
+			<li>Les sélections et les jointures sont présentées mais ne sont toujours pas restituées ;</li>        
+			<li>Les expressions ne sont pas restituées.</li>
+		</ul>
+		<br>
+    </td>
+	<td width="130" bgcolor='#ccffff'>&nbsp;</td>
+</tr>
+<tr bgcolor='#ccffff'><td colspan = "2">&nbsp;</td></tr>
+<tr bgcolor='#ccffff'><td colspan = "2"><div align='left'><h1>Informations générales</h1></div></td></tr>
+<tr bgcolor='#ccffff'><td colspan = "2">&nbsp;</td></tr>
+<tr bgcolor='#ffffcc'>
+	<td><br>	
+		Le géocodage des fichies CSV et TXT est réalisé si les colonnes suivantes sont trouvées : LATITUDE, LONGITUDE, X, Y, COORDX, COORDY (la casse importe peu et les couples sont libres).<br>
+		Au niveau des étiquettes (QgsExpression),la correspondance de fonctions de MapInfo vers QGIS est basée sur le contenu de la version 1.9 de QGIS.
+		<br>Si vous travaillez avec une version 1.8 du logiciel QGIS, l'expression peut être en conséquence incorrecte. Néanmoins, elle reste modifiable par le menu
+		"Couche / Etiquetage" et n'empêche pas le chargement intégral du document MapInfo.
+		<br>Si votre document comporte des étiquettes personnalisées, l'ancrage reste toujours au centroide de l'objet.
+		<br>Pour les objets linéaires, un décalage sera présent.
+		<br>&nbsp;
+    </td>
+	<td width="130" bgcolor='#ccffff'>&nbsp;</td>
+</tr>
+<tr bgcolor='#ccffff'><td colspan = "2">&nbsp;</td></tr>
+<tr bgcolor='#ccffff'><td colspan = "2"><div align='left'><h1>Fonctions supportées</h1></div></td></tr>
+<tr bgcolor='#ccffff'><td colspan = "2">&nbsp;</td></tr>
+<tr bgcolor='#ffffcc'>
+	<td><br>
+		<ul>
+			<li>Chargement des couches (native, raster, WMS, XLS, CSV, SHP) ;</li>
+			<li>Symbolisation des objets (composition de styles complexes) ;</li>
+			<li>Mises en page (sommaires). Une composition à défaut est aussi proposée ('<i>Mise en page Openwor</i>') ;</li>
+			<li>Analyses thématiques :</li>
+				<ul>
+					<li>par valeurs individuelles ;</li>
+					<li>par classes ;</li>
+					<li>par symboles proportionnels ;</li>
+					<li>par graphes (bar, pie, half-pie) ;</li>
+					<li>par densité de points.</li>
+				</ul>
+			<li>Etiquetage (avec ou sans expression) ;</li>	
+			<li>Restitution des fenêtres données ;</li>
+			<li>Fonction de recherche de documents.</li>
+		</ul>			
+		<br>
+    </td>
+	<td width="130" bgcolor='#ccffff'>&nbsp;</td>
+</tr>
+<tr bgcolor='#ccffff'>
+	<td colspan = "2">
+		<p align='center'>&nbsp;<br>Janvier 2013 - <b>MEDDE</b> - <b>CP2I</b> - <b>DO Sud-Est</b></p>
+		<br>&nbsp;
+	</td>
+</tr>
+</table>
+</body>

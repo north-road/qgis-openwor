@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32px"
+   height="32px"
+   id="svg3050"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="mapinfo_brush_113_32.svg">
+  <defs
+     id="defs3052">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 16 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="32 : 16 : 1"
+       inkscape:persp3d-origin="16 : 10.666667 : 1"
+       id="perspective3058" />
+    <inkscape:perspective
+       id="perspective3045"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="77.099124"
+     inkscape:cx="27.756673"
+     inkscape:cy="30.55824"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1280"
+     inkscape:window-height="780"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3060" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3055">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <g
+       id="g3075">
+      <path
+         sodipodi:nodetypes="cccccccccccccccc"
+         id="path2828"
+         d="m 10.853428,32.045675 c 0.01797,0.0033 15.110574,-14.180157 15.098237,-14.184601 0.0331,0.01499 -0.104291,14.154921 -0.104291,14.154921 l -14.993946,0.02968 z M 0,14.06375 c 0,-1.128751 0,-1.136449 0,-2.265201 0.00961385,-0.0066 10.895587,-11.78945789 10.85175,-11.79921310365 0.01295,0 14.954729,0 14.954706,0 0,5.84283130365 0,11.60784010365 0,17.45067210365 -8.602153,0 -17.2043042,0 -25.806456,0 0,-1.128754 0,-2.257505 0,-3.386258 z m 32.011908,-2.25646 c -0.02209,1.806554 -0.0036,3.964224 -4.16e-4,5.652031 -1.810075,0 -3.722593,-0.0093 -5.53267,-0.0093 -0.0084,-0.0066 5.516608,-5.629544 5.533086,-5.642718 l 0,-1.3e-5 z"
+         style="fill:#000000" />
+    </g>
+  </g>
+</svg>
